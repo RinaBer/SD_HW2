@@ -5,6 +5,7 @@ import cs.technion.ac.il.sd.ExternalCompiler;
 import cs.technion.ac.il.sd.app.Makefile;
 import graph.Graph;
 import graph.Node;
+import jdk.nashorn.internal.objects.NativeArray;
 import parser.Parser;
 import toposort.ToposortImpl;
 
@@ -26,24 +27,27 @@ public class MakefileImpl implements Makefile {
     public void processFile(File file) {
         Graph<String> graph = Parser.parse(file);
         List<String> shouldCompile = new LinkedList<>();
-        HashSet<Node> nodes = graph.getVertexes();
-        for (Node<String> n: nodes){
-            if (external.wasModified(n.getVertexID()) ||
-                    checkNeighbors(n.getNeighbors())){
-                shouldCompile.add(n.getVertexID());
-            }
-        }
         ToposortImpl<String> toposort = new ToposortImpl<>();
-        Optional<List<String> > sorted = toposort.getToposort(graph);
+        Optional<List<Node<String>>> sorted = toposort.getToposort(graph);
         if (sorted == null){
             external.fail();
             return;
         }
-        for (int i = sorted.get().size(); i > 0; i--){
-            if (shouldCompile.contains(sorted.get().get(i))){
-                external.compile(sorted.get().get(i));
+        for (int i = sorted.get().size()-1; i >= 0; i--){
+            Node<String> node = sorted.get().get(i);
+            if ((isFile(node.getVertexID()) && external.wasModified(node.getVertexID()))
+                    || checkNeighbors(node.getNeighbors())){
+                shouldCompile.add(node.getVertexID());
+            }
+            if (shouldCompile.contains(node)){
+                external.compile(node.getVertexID());
             }
         }
+    }
+
+    // TODO: implement
+    private boolean isFile (String s){
+        return true;
     }
 
     private boolean checkNeighbors(List<String> neighbors) {

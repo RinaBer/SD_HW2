@@ -10,13 +10,13 @@ import java.util.*;
  * Created by rina.berlin on 4/11/2016.
  */
 public class ToposortImpl<T> {
-    private List<T> sorted;
+    private List<Node<T> > sorted;
 
     public ToposortImpl() {
         sorted = new ArrayList<>();
     }
 
-    public Optional<List<T> > getToposort(Graph<T> graph) {
+    public Optional<List<Node<T>>> getToposort(Graph<T> graph) {
         while (!graph.isEmpty()){
             Optional<Node> source = graph.getSource();
             Node<T> node;
@@ -26,7 +26,7 @@ public class ToposortImpl<T> {
                 return Optional.ofNullable(null);
             }
             graph.removeVertex(node);
-            sorted.add((T) node.getVertexID());
+            sorted.add(node);
         }
         return Optional.of(this.sorted);
     }
