@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base.iml" filepath="$PROJECT_DIR$/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makefile-app/makefile-app.iml" filepath="$PROJECT_DIR$/makefile-app/makefile-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ExternalCompiler/makefile-external.iml" filepath="$PROJECT_DIR$/../ExternalCompiler/makefile-external.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makefile-test/makefile-test.iml" filepath="$PROJECT_DIR$/makefile-test/makefile-test.iml" />
+    </modules>
+  </component>
+</project>
