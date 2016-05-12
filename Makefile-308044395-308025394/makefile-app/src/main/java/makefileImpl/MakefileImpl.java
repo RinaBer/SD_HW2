@@ -6,6 +6,8 @@ import cs.technion.ac.il.sd.app.Makefile;
 import graph.Graph;
 import graph.Node;
 import jdk.nashorn.internal.objects.NativeArray;
+import makefileVertex.FileOrAssignment;
+import makefileVertex.MakefileVertex;
 import parser.Parser;
 import toposort.ToposortImpl;
 
@@ -25,34 +27,35 @@ public class MakefileImpl implements Makefile {
 
     @Override
     public void processFile(File file) {
-        Graph<String> graph = Parser.parse(file);
-        List<String> shouldCompile = new LinkedList<>();
-        ToposortImpl<String> toposort = new ToposortImpl<>();
-        Optional<List<Node<String>>> sorted = toposort.getToposort(graph);
-        if (sorted == null){
+        Graph<MakefileVertex> graph = Parser.parse(file);
+        List<MakefileVertex> shouldCompile = new LinkedList<>();
+        ToposortImpl<MakefileVertex> toposort = new ToposortImpl<>();
+        Optional<List<Node<MakefileVertex>>> sorted = toposort.getToposort(graph);
+        if (!sorted.isPresent()){
             external.fail();
             return;
         }
-        for (int i = sorted.get().size()-1; i >= 0; i--){
-            Node<String> node = sorted.get().get(i);
-            if ((isFile(node.getVertexID()) && external.wasModified(node.getVertexID()))
+        List<Node<MakefileVertex>> sortedLst = sorted.get();
+        for (int i = sortedLst.size()-1; i >= 0; i--){
+            Node<MakefileVertex> node = sortedLst.get(i);
+            if ((isFile(node.getVertexID()) && external.wasModified(node.getVertexID().GetName()))
                     || checkNeighbors(node.getNeighbors())){
                 shouldCompile.add(node.getVertexID());
             }
-            if (shouldCompile.contains(node)){
-                external.compile(node.getVertexID());
+            if (shouldCompile.contains(node.getVertexID())){
+                external.compile(node.getVertexID().GetName());
             }
         }
     }
 
     // TODO: implement
-    private boolean isFile (String s){
-        return true;
+    private boolean isFile (MakefileVertex v){
+        return v.GetType() == FileOrAssignment.File;
     }
 
-    private boolean checkNeighbors(List<String> neighbors) {
-        for (String s: neighbors){
-            if (external.wasModified(s)){
+    private boolean checkNeighbors(List<MakefileVertex> neighbors) {
+        for (MakefileVertex v: neighbors){
+            if (external.wasModified(v.GetName())){
                 return true;
             }
         }
