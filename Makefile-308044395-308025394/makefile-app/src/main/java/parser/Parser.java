@@ -4,6 +4,7 @@ import graph.Edge;
 import graph.Graph;
 import makefileVertex.FileOrAssignment;
 import makefileVertex.MakefileVertex;
+import org.omg.CORBA.Environment;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,6 +12,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Created by rina.berlin on 5/7/2016.
@@ -20,10 +22,11 @@ public class Parser {
         HashMap<String, FileOrAssignment> fileToType = new HashMap<>();
         HashMap<String, List<String>> fileToDependencies = new HashMap<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))){
-            String line;
+            String line = null;
             String[] lineArr = null;
             FileOrAssignment type = FileOrAssignment.Unknown;
             while ((line = reader.readLine()) != null) {
+                if (isNullOrBlank(line)) continue;
                 if (line.contains("=")){
                     lineArr = Arrays.stream(line.split("=")).map(String::trim).toArray(String[]::new);
                     type = FileOrAssignment.Assignment;
@@ -33,12 +36,13 @@ public class Parser {
                     type = FileOrAssignment.File;
                 }
                 String name =lineArr[0];
-                String[] filesDependencies = lineArr[1].split(",");
                 fileToType.put(name, type);
-                fileToDependencies.put(name, Arrays.asList(filesDependencies));
-                for (String fileDependency : filesDependencies) {
-                    if (!fileToType.containsKey(fileDependency))
-                        fileToType.put(fileDependency, FileOrAssignment.File);
+                if (lineArr.length > 1) {
+                    String[] filesDependencies = Arrays.stream(lineArr[1].split(",")).map(String::trim).toArray(String[]::new);
+                    fileToDependencies.put(name, Arrays.asList(filesDependencies));
+                    for (String fileDependency : filesDependencies)
+                        if (!fileToType.containsKey(fileDependency))
+                            fileToType.put(fileDependency, FileOrAssignment.File);
                 }
             }
         } catch (IOException e){
@@ -64,5 +68,9 @@ public class Parser {
             }
         }
         return new Graph(vertexes, edges);
+    }
+
+    public static boolean isNullOrBlank(String param) {
+        return param == null || param.trim().length() == 0 || param.equals(System.getProperty("line.seperator"));
     }
 }
