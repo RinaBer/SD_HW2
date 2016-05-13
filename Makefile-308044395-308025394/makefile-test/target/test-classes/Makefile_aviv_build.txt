@@ -1,0 +1,19 @@
+all= ex4.exe
+
+ex4.exe: c_matrix.tab.o, c_matrix.yy.o, printError.o, c_matrix_class.o, symbol_table.o, arith_op.o, c_matrix_utils.o
+
+%.o1: %.c
+
+%.o2: %.cpp
+
+%.output: %.ypp
+
+%.yy.c: %.lex
+
+c_matrix.yy.o: c_matrix.yy.c, c_matrix.tab.hpp
+
+zip= submit.zip
+
+%.zip:
+
+clean=

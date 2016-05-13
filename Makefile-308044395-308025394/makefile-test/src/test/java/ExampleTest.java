@@ -31,7 +31,7 @@ public class ExampleTest {
   }
 
   @Rule
-  public Timeout globalTimeout = Timeout.seconds(10);
+  public Timeout globalTimeout = Timeout.seconds(5000000);
 
   @Test
   public void testSimple() {
@@ -60,5 +60,38 @@ public class ExampleTest {
     when(mock.wasModified(anyString())).thenReturn(false);
     processFile("unmodified");
     Mockito.verify(mock, never()).compile(anyString());
+  }
+
+  @Test
+  public void checkParser() throws Exception {
+    when(mock.wasModified("f1")).thenReturn(true);
+    when(mock.wasModified("f2")).thenReturn(false);
+    when(mock.wasModified("f4")).thenReturn(false);
+    when(mock.wasModified("f5")).thenReturn(false);
+    when(mock.wasModified("f9")).thenReturn(false);
+    InOrder inOrder = Mockito.inOrder(mock);
+    processFile("check_parser");
+    inOrder.verify(mock).compile("f1");
+    Mockito.verify(mock, times(8)).compile(anyString());
+    Mockito.verify(mock, never()).compile(anyString());
+  }
+
+  @Test
+  public void tasksAndFiles(){
+    when(mock.wasModified(anyString())).thenReturn(true);
+    processFile("tasks_and_files");
+    Mockito.verify(mock, times(1)).compile("f2");
+    Mockito.verify(mock, times(1)).compile("f1");
+    Mockito.verify(mock, times(1)).compile("t3");
+    Mockito.verify(mock, times(1)).compile("t2");
+    Mockito.verify(mock, times(1)).compile("t1");
+    Mockito.verify(mock, times(5)).compile(anyString());
+  }
+
+  @Test
+  public void realMakefile(){
+    when(mock.wasModified(anyString())).thenReturn(true);
+    processFile("Makefile_aviv");
+    Mockito.verify(mock, times(22)).compile(anyString());
   }
 }
