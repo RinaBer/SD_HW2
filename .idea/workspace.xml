@@ -25,19 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Guice.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0-sources.jar!/com/google/inject/Guice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-              <folding>
-                <element signature="e#2103#2104#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MakefileImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/main/java/makefileImpl/MakefileImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +40,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AcceptanceTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTests.java">
+      <file leaf-file-name="AcceptanceTest1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="374">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AcceptanceTest2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AcceptanceTest3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,11 +149,13 @@
         <option value="C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/java/lang/Object.class" />
         <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/main/java/cs/technion/ac/il/sd/app/MakefileModule.java" />
         <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/main/java/parser/Parser.java" />
-        <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest2.java" />
         <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/IAcceptanceTest.java" />
         <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/MakefileImplTest2.java" />
         <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-test/src/test/java/ExampleTest.java" />
         <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTests.java" />
+        <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest1.java" />
+        <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest2.java" />
+        <option value="$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest3.java" />
       </list>
     </option>
   </component>
@@ -464,28 +477,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="JUnit.AcceptanceTests.AcceptanceTest1">
-    <configuration default="false" name="ExampleTest.testSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="makefile-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="testSimple" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in makefile-app">
     <configuration default="false" name="ExampleTest.realMakefile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="makefile-test" />
@@ -558,6 +550,27 @@
       <option name="MAIN_CLASS_NAME" value="AcceptanceTests" />
       <option name="METHOD_NAME" value="AcceptanceTest3" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in makefile-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="makefile-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -805,19 +818,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleTest.testSimple" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleTest.realMakefile" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest3" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleTest.realMakefile" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in makefile-app" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleTest.realMakefile" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleTest.testSimple" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in makefile-app" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AcceptanceTests.AcceptanceTest3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleTest.realMakefile" />
       </list>
     </recent_temporary>
   </component>
@@ -844,9 +857,6 @@
     <history-entry file="AcceptanceTests_AcceptanceTest2 - 2016.05.15 at 22h 05m 56s.xml">
       <configuration name="AcceptanceTests.AcceptanceTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTests_AcceptanceTest3 - 2016.05.15 at 21h 57m 55s.xml">
-      <configuration name="AcceptanceTests.AcceptanceTest3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AcceptanceTests_AcceptanceTest3 - 2016.05.15 at 22h 01m 44s.xml">
       <configuration name="AcceptanceTests.AcceptanceTest3" configurationId="JUnit" />
     </history-entry>
@@ -868,10 +878,13 @@
     <history-entry file="AcceptanceTests_AcceptanceTest3 - 2016.05.15 at 22h 05m 47s.xml">
       <configuration name="AcceptanceTests.AcceptanceTest3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_makefile-app - 2016.05.15 at 22h 36m 01s.xml">
+      <configuration name="All in makefile-app" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -881,7 +894,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1045,14 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/MakefileImplTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1132,10 +1137,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="350">
+          <caret line="67" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile-308044395-308025394/makefile-app/src/test/java/AcceptanceTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

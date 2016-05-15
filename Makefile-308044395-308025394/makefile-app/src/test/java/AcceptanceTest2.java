@@ -19,7 +19,7 @@ import static org.mockito.Mockito.when;
 /**
  * Created by akravi on 5/15/2016.
  */
-public class AcceptanceTests {
+public class AcceptanceTest2 {
     Injector injector = Guice.createInjector(new AbstractModule() {
         @Override
         protected void configure() {
@@ -34,17 +34,6 @@ public class AcceptanceTests {
     public Timeout globalTimeout = Timeout.seconds(5000000);
 
     @Test
-    public void AcceptanceTest1(){
-        when(mock.wasModified("5")).thenReturn(true);
-        make.processFile(new File(getClass().getResource("acceptance1.txt").getFile()));
-        InOrder inOrder = Mockito.inOrder(mock);
-        for (Integer i=5; i>0; i--){
-            inOrder.verify(mock).compile(Integer.toString(i));
-        }
-        Mockito.verify(mock, times(5)).compile(anyString());
-    }
-
-    @Test
     public void AcceptanceTest2(){
         when(mock.wasModified("f1")).thenReturn(true);
         when(mock.wasModified("f2")).thenReturn(false);
@@ -57,13 +46,5 @@ public class AcceptanceTests {
         inOrder.verify(mock).compile("t3");
         inOrder.verify(mock).compile("main");
         Mockito.verify(mock, times(5)).compile(anyString());
-    }
-
-    @Test
-    public void AcceptanceTest3(){
-        when(mock.wasModified(anyString())).thenReturn(true);
-        make.processFile(new File(getClass().getResource("acceptance3.txt").getFile()));
-        InOrder inOrder = Mockito.inOrder(mock);
-        Mockito.verify(mock, times(1000)).compile(anyString());
     }
 }
