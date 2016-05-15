@@ -113,18 +113,6 @@ public class ExampleTest {
   }
 
   @Test
-  public void tasksAndFiles(){
-    when(mock.wasModified(anyString())).thenReturn(true);
-    processFile("tasksAndFiles");
-    Mockito.verify(mock, times(1)).compile("f2");
-    Mockito.verify(mock, times(1)).compile("f1");
-    Mockito.verify(mock, times(1)).compile("t3");
-    Mockito.verify(mock, times(1)).compile("t2");
-    Mockito.verify(mock, times(1)).compile("t1");
-    Mockito.verify(mock, times(5)).compile(anyString());
-  }
-
-  @Test
   public void checkChanges(){
     when(mock.wasModified("f2")).thenReturn(true);
     processFile("checkChanges");
