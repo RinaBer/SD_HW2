@@ -63,6 +63,7 @@ public class ExampleTest {
   }
 
   @Test
+<<<<<<< HEAD
   public void checkParser() throws Exception {
     when(mock.wasModified("f1")).thenReturn(true);
     when(mock.wasModified("f2")).thenReturn(false);
@@ -74,28 +75,7 @@ public class ExampleTest {
     inOrder.verify(mock).compile("f1");
     Mockito.verify(mock, times(8)).compile(anyString());
     Mockito.verify(mock, never()).compile(anyString());
-  }
-
-  @Test
-  public void tasksAndFiles(){
-    when(mock.wasModified(anyString())).thenReturn(true);
-    processFile("tasks_and_files");
-    Mockito.verify(mock, times(1)).compile("f2");
-    Mockito.verify(mock, times(1)).compile("f1");
-    Mockito.verify(mock, times(1)).compile("t3");
-    Mockito.verify(mock, times(1)).compile("t2");
-    Mockito.verify(mock, times(1)).compile("t1");
-    Mockito.verify(mock, times(5)).compile(anyString());
-  }
-
-  @Test
-  public void realMakefile(){
-    when(mock.wasModified(anyString())).thenReturn(true);
-    processFile("Makefile_aviv");
-    Mockito.verify(mock, times(22)).compile(anyString());
-  }
-
-  @Test
+=======
   public void circle () {
     processFile("circle");
     Mockito.verify(mock, times(1)).fail();
@@ -110,12 +90,17 @@ public class ExampleTest {
     inOrder.verify(mock).compile("t2");
     inOrder.verify(mock).compile("t1");
     Mockito.verify(mock, times(3)).compile(anyString());
+>>>>>>> origin/master
   }
 
   @Test
   public void tasksAndFiles(){
     when(mock.wasModified(anyString())).thenReturn(true);
+<<<<<<< HEAD
+    processFile("tasks_and_files");
+=======
     processFile("tasksAndFiles");
+>>>>>>> origin/master
     Mockito.verify(mock, times(1)).compile("f2");
     Mockito.verify(mock, times(1)).compile("f1");
     Mockito.verify(mock, times(1)).compile("t3");
@@ -125,6 +110,12 @@ public class ExampleTest {
   }
 
   @Test
+<<<<<<< HEAD
+  public void realMakefile(){
+    when(mock.wasModified(anyString())).thenReturn(true);
+    processFile("Makefile_aviv");
+    Mockito.verify(mock, times(22)).compile(anyString());
+=======
   public void checkChanges(){
     when(mock.wasModified("f2")).thenReturn(true);
     processFile("checkChanges");
@@ -149,5 +140,6 @@ public class ExampleTest {
     Mockito.verify(mock, times(1)).compile("f4");
     Mockito.verify(mock, times(1)).compile("f1");
     Mockito.verify(mock, times(2)).compile(anyString());
+>>>>>>> origin/master
   }
 }
