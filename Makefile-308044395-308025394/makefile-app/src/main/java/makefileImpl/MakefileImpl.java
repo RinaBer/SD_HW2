@@ -5,7 +5,6 @@ import cs.technion.ac.il.sd.ExternalCompiler;
 import cs.technion.ac.il.sd.app.Makefile;
 import graph.Graph;
 import graph.Node;
-import jdk.nashorn.internal.objects.NativeArray;
 import makefileVertex.FileOrAssignment;
 import makefileVertex.MakefileVertex;
 import parser.Parser;

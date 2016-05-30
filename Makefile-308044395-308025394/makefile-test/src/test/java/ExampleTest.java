@@ -73,7 +73,6 @@ public class ExampleTest {
     processFile("check_parser");
     inOrder.verify(mock).compile("f1");
     Mockito.verify(mock, times(8)).compile(anyString());
-    Mockito.verify(mock, never()).compile(anyString());
   }
 
   @Test

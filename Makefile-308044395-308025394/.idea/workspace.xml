@@ -29,13 +29,9 @@
       <file leaf-file-name="ToposortImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/main/java/toposort/ToposortImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="425">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,40 +39,51 @@
       <file leaf-file-name="MakefileImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/makefileImpl/MakefileImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#MakefileImpl#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakefileImplTest1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/MakefileImplTest1.java">
+      <file leaf-file-name="FileOrAssignment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/makefileVertex/FileOrAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MakefileVertex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/makefileVertex/MakefileVertex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="83" />
+            <state relative-caret-position="573">
+              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AcceptanceTest1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AcceptanceTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="340">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IAcceptanceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/IAcceptanceTest.java">
+      <file leaf-file-name="AcceptanceTest2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AcceptanceTest3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -104,37 +121,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guice.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0-sources.jar!/com/google/inject/Guice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#3319#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/parser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakefileModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/cs/technion/ac/il/sd/app/MakefileModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
-                <element signature="e#205#206#0" expanded="false" />
-                <element signature="e#258#259#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,16 +167,16 @@
         <option value="$PROJECT_DIR$/library/src/main/java/graph/Node.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/graph/Graph.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/toposort/ToposortImpl.java" />
-        <option value="$PROJECT_DIR$/makefile-app/src/main/java/parser/Parser.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/main/java/cs/technion/ac/il/sd/app/MakefileModule.java" />
-        <option value="$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/test/java/IAcceptanceTest.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest1.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/test/java/makefileImpl/MakefileImplTest.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/test/java/MakefileImplTest.java" />
-        <option value="$PROJECT_DIR$/makefile-app/src/main/java/makefileImpl/MakefileImpl.java" />
         <option value="$PROJECT_DIR$/makefile-app/src/test/java/MakefileImplTest1.java" />
+        <option value="$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java" />
+        <option value="$PROJECT_DIR$/makefile-app/src/main/java/makefileImpl/MakefileImpl.java" />
+        <option value="$PROJECT_DIR$/makefile-app/src/main/java/parser/Parser.java" />
       </list>
     </option>
   </component>
@@ -206,13 +199,20 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -239,9 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -457,6 +454,40 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makefile-308044395-308025394" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makefile-308044395-308025394" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="makefile-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="makefileVertex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -488,8 +519,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makefile-308044395-308025394" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makefile-308044395-308025394" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="makefile-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,7 +562,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15198386" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TaskManager-skeleton-project-v1.03" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
@@ -517,105 +577,100 @@
       <recent name="C:\dev\ide\workspaces\SoftwareDesign\2016\SoftwareDesign1\base\makefile-test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MakefileImplTest1.acceptanceTest1">
-    <configuration default="false" name="ExampleTest.checkChanges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="makefile-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="checkChanges" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExampleTest.checkChanges2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="makefile-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="checkChanges2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExampleTest.checkChanges3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="makefile-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="checkChanges3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MakefileImplTest.acceptanceTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="makefileImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="makefile-app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="makefileImpl" />
-      <option name="MAIN_CLASS_NAME" value="makefileImpl.MakefileImplTest" />
-      <option name="METHOD_NAME" value="acceptanceTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MakefileImplTest1.acceptanceTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExampleTest">
+    <configuration default="false" name="AcceptanceTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="makefile-app" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MakefileImplTest1" />
-      <option name="METHOD_NAME" value="acceptanceTest1" />
+      <option name="MAIN_CLASS_NAME" value="AcceptanceTest2" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AcceptanceTest3.AcceptanceTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="makefile-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AcceptanceTest3" />
+      <option name="METHOD_NAME" value="AcceptanceTest3" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="makefile-test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AcceptanceTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="makefile-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AcceptanceTest1" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AcceptanceTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="makefile-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AcceptanceTest3" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -798,6 +853,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -863,19 +940,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleTest.checkChanges" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleTest.checkChanges2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest.checkChanges3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MakefileImplTest.acceptanceTest1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MakefileImplTest1.acceptanceTest1" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AcceptanceTest2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTest3.AcceptanceTest3" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AcceptanceTest1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AcceptanceTest3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MakefileImplTest1.acceptanceTest1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MakefileImplTest.acceptanceTest1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest.checkChanges3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleTest.checkChanges2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleTest.checkChanges" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTest1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTest3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AcceptanceTest2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AcceptanceTest3.AcceptanceTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -906,65 +983,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest_checkChanges - 2016.05.12 at 17h 43m 15s.xml">
-      <configuration name="ExampleTest.checkChanges" configurationId="JUnit" />
+    <history-entry file="AcceptanceTest1 - 2016.05.15 at 22h 45m 18s.xml">
+      <configuration name="AcceptanceTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTest_checkChanges - 2016.05.12 at 17h 43m 47s.xml">
-      <configuration name="ExampleTest.checkChanges" configurationId="JUnit" />
+    <history-entry file="AcceptanceTest1 - 2016.05.15 at 22h 50m 53s.xml">
+      <configuration name="AcceptanceTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTest_checkChanges - 2016.05.12 at 17h 46m 04s.xml">
-      <configuration name="ExampleTest.checkChanges" configurationId="JUnit" />
+    <history-entry file="AcceptanceTest2 - 2016.05.15 at 22h 45m 23s.xml">
+      <configuration name="AcceptanceTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTest_checkChanges2 - 2016.05.12 at 17h 46m 10s.xml">
-      <configuration name="ExampleTest.checkChanges2" configurationId="JUnit" />
+    <history-entry file="AcceptanceTest3 - 2016.05.15 at 22h 45m 31s.xml">
+      <configuration name="AcceptanceTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTest_checkChanges3 - 2016.05.12 at 17h 46m 39s.xml">
-      <configuration name="ExampleTest.checkChanges3" configurationId="JUnit" />
+    <history-entry file="AcceptanceTest3_AcceptanceTest3 - 2016.05.15 at 22h 39m 41s.xml">
+      <configuration name="AcceptanceTest3.AcceptanceTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakefileImplTest_acceptanceTest1 - 2016.05.14 at 00h 13m 47s.xml">
-      <configuration name="MakefileImplTest.acceptanceTest1" configurationId="JUnit" />
+    <history-entry file="ExampleTest - 2016.05.15 at 22h 39m 54s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakefileImplTest_acceptanceTest1_(1) - 2016.05.14 at 00h 17m 44s.xml">
-      <configuration name="MakefileImplTest.acceptanceTest1 (1)" configurationId="JUnit" />
+    <history-entry file="ExampleTest - 2016.05.15 at 22h 43m 12s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakefileImplTest_acceptanceTest1_(1) - 2016.05.14 at 00h 25m 44s.xml">
-      <configuration name="MakefileImplTest.acceptanceTest1 (1)" configurationId="JUnit" />
+    <history-entry file="ExampleTest - 2016.05.15 at 22h 43m 39s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakefileImplTest_acceptanceTest1_(1) - 2016.05.14 at 00h 27m 55s.xml">
-      <configuration name="MakefileImplTest.acceptanceTest1 (1)" configurationId="JUnit" />
+    <history-entry file="ExampleTest - 2016.05.15 at 22h 44m 07s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakefileImplTest_acceptanceTest1_(1) - 2016.05.14 at 00h 29m 18s.xml">
-      <configuration name="MakefileImplTest.acceptanceTest1 (1)" configurationId="JUnit" />
+    <history-entry file="ExampleTest - 2016.05.15 at 22h 51m 02s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659933" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21855828" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32828283" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2607362" sideWeight="0.63754046" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.63754046" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.36245954" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3956229" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3956229" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659933" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -996,13 +1073,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/makefile-app/src/main/java/makefileImpl/MakefileImpl.java</url>
-          <line>45</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java</url>
-          <line>84</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -1022,44 +1099,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/graph/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#627#628#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/toposort/ToposortImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ExternalCompiler/src/main/java/cs/technion/ac/il/sd/SimplaloucheCompiler.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,12 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#627#628#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,19 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="method#Graph#0;class#Graph#0" expanded="false" />
-            <element signature="method#initializeSources#0;class#Graph#0" expanded="false" />
-            <element signature="method#addVertex#0;class#Graph#0" expanded="false" />
-            <element signature="method#addEdge#0;class#Graph#0" expanded="false" />
-            <element signature="method#removeVertex#0;class#Graph#0" expanded="false" />
-            <element signature="e#2178#2179#0" expanded="false" />
-            <element signature="e#2209#2210#0" expanded="false" />
-            <element signature="e#2240#2241#0" expanded="false" />
-            <element signature="e#2281#2282#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,10 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#289#290#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,10 +1233,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#3319#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,10 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#258#259#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,179 +1259,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/parser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="396" column="28" selection-start-line="396" selection-start-column="28" selection-end-line="396" selection-end-column="28" />
-          <folding>
-            <element signature="docComment;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#MIN_VALUE#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#MAX_VALUE#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#TYPE#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#digits#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Integer#0" expanded="false" />
-            <element signature="method#toString#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toUnsignedString#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toHexString#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toOctalString#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toBinaryString#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toUnsignedString0#0;class#Integer#0" expanded="false" />
-            <element signature="method#toUnsignedString0#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#formatUnsignedInt#0;class#Integer#0" expanded="false" />
-            <element signature="method#formatUnsignedInt#0;class#Integer#0" expanded="false" />
-            <element signature="e#13557#13617#0" expanded="false" />
-            <element signature="docComment;method#toString#1;class#Integer#0" expanded="false" />
-            <element signature="method#toString#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toUnsignedString#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#getChars#0;class#Integer#0" expanded="false" />
-            <element signature="method#getChars#0;class#Integer#0" expanded="false" />
-            <element signature="e#16643#16688#0" expanded="false" />
-            <element signature="method#stringSize#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#parseInt#0;class#Integer#0" expanded="false" />
-            <element signature="method#parseInt#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#parseInt#1;class#Integer#0" expanded="false" />
-            <element signature="method#parseInt#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#parseUnsignedInt#0;class#Integer#0" expanded="false" />
-            <element signature="method#parseUnsignedInt#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#parseUnsignedInt#1;class#Integer#0" expanded="false" />
-            <element signature="method#parseUnsignedInt#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#valueOf#0;class#Integer#0" expanded="false" />
-            <element signature="method#valueOf#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#valueOf#1;class#Integer#0" expanded="false" />
-            <element signature="method#valueOf#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;class#IntegerCache#0;class#Integer#0" expanded="false" />
-            <element signature="class#IntegerCache#0;class#Integer#0" expanded="false" />
-            <element signature="initializer##0;class#IntegerCache#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#valueOf#2;class#Integer#0" expanded="false" />
-            <element signature="method#valueOf#2;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#value#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#Integer#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#Integer#1;class#Integer#0" expanded="false" />
-            <element signature="method#Integer#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#byteValue#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#shortValue#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#intValue#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#longValue#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#floatValue#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#doubleValue#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toString#2;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#hashCode#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Integer#0" expanded="false" />
-            <element signature="method#equals#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#getInteger#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#getInteger#1;class#Integer#0" expanded="false" />
-            <element signature="method#getInteger#1;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#getInteger#2;class#Integer#0" expanded="false" />
-            <element signature="method#getInteger#2;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#decode#0;class#Integer#0" expanded="false" />
-            <element signature="method#decode#0;class#Integer#0" expanded="false" />
-            <element signature="e#45337#45404#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#compare#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#compareUnsigned#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#toUnsignedLong#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#divideUnsigned#0;class#Integer#0" expanded="false" />
-            <element signature="method#divideUnsigned#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#remainderUnsigned#0;class#Integer#0" expanded="false" />
-            <element signature="method#remainderUnsigned#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#SIZE#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#BYTES#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#highestOneBit#0;class#Integer#0" expanded="false" />
-            <element signature="method#highestOneBit#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#lowestOneBit#0;class#Integer#0" expanded="false" />
-            <element signature="method#lowestOneBit#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#numberOfLeadingZeros#0;class#Integer#0" expanded="false" />
-            <element signature="method#numberOfLeadingZeros#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#numberOfTrailingZeros#0;class#Integer#0" expanded="false" />
-            <element signature="method#numberOfTrailingZeros#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#bitCount#0;class#Integer#0" expanded="false" />
-            <element signature="method#bitCount#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#rotateLeft#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#rotateRight#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#reverse#0;class#Integer#0" expanded="false" />
-            <element signature="method#reverse#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#signum#0;class#Integer#0" expanded="false" />
-            <element signature="method#signum#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#reverseBytes#0;class#Integer#0" expanded="false" />
-            <element signature="method#reverseBytes#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#sum#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#max#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;method#min#0;class#Integer#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#Integer#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/main/java/toposort/ToposortImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/makefileImpl/MakefileImplTest.java">
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/makefileImpl/MakefileImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/MakefileImplTest1.java" />
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/IAcceptanceTest.java" />
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/makefileVertex/FileOrAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/makefileVertex/MakefileVertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/makefileImpl/MakefileImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#MakefileImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/MakefileImplTest1.java">
+    <entry file="file://$PROJECT_DIR$/makefile-app/src/main/java/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/IAcceptanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makefile-app/src/test/java/AcceptanceTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="340">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile-test/src/test/java/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,5 +1437,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="assembly:single" />
   </component>
 </project>

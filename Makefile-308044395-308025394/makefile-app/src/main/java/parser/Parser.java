@@ -4,7 +4,6 @@ import graph.Edge;
 import graph.Graph;
 import makefileVertex.FileOrAssignment;
 import makefileVertex.MakefileVertex;
-import org.omg.CORBA.Environment;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -12,7 +11,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by rina.berlin on 5/7/2016.
